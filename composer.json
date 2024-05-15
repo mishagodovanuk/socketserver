@@ -1,0 +1,15 @@
+{
+  "name": "socket/socketchat",
+  "description": "A simple PHP project for socket-based chat application",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "cboden/ratchet": "^0.4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Socket\\SocketChat\\": "src/"
+    }
+  }
+}
