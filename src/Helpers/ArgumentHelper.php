@@ -2,8 +2,15 @@
 
 namespace Socket\SocketChat\Helpers;
 
+/**
+ * Class ArgumentHelper
+ */
 class ArgumentHelper
 {
+    /**
+     * @param $argv
+     * @return array
+     */
     public static function getArgument($argv)
     {
         $parsedArgs = [];
